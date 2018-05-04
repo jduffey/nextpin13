@@ -18,4 +18,11 @@ public class UserTests {
         assertEquals(5, user.getBaseNumber());
     }
 
+    @Test
+    public void userShouldBeAbleToSetAndGetDirectionNumber(){
+        User user = new User();
+        user.setDirectionNumber(0);
+        assertEquals(1, user.getDirectionNumber());
+    }
+
 }
